@@ -1,0 +1,1815 @@
+[
+ {
+  "n": 1,
+  "sec": "1 — Numération et codage",
+  "enonce": "Combien de valeurs peut-on coder avec un nombre binaire de <b>2 bits</b> ?",
+  "type": "number",
+  "accept": [
+   "4"
+  ],
+  "expl": "Avec n bits on code 2<sup>n</sup> valeurs. Ici 2<sup>2</sup> = <b>4</b> valeurs (00, 01, 10, 11).",
+  "choices": [],
+  "multi": false
+ },
+ {
+  "n": 2,
+  "sec": "1 — Numération et codage",
+  "enonce": "Combien de valeurs peut-on coder avec un nombre binaire de <b>3 bits</b> ?",
+  "type": "number",
+  "accept": [
+   "8"
+  ],
+  "expl": "2<sup>3</sup> = <b>8</b> valeurs (de 000 à 111).",
+  "choices": [],
+  "multi": false
+ },
+ {
+  "n": 3,
+  "sec": "1 — Numération et codage",
+  "enonce": "Combien de valeurs peut-on coder avec un nombre binaire de <b>8 bits</b> ?",
+  "type": "number",
+  "accept": [
+   "256"
+  ],
+  "expl": "2<sup>8</sup> = <b>256</b> valeurs (de 0 à 255).",
+  "choices": [],
+  "multi": false
+ },
+ {
+  "n": 4,
+  "sec": "1 — Numération et codage",
+  "enonce": "Quels sont les chiffres associés à la base 10 ?",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "La base 10 (décimal) utilise 10 chiffres, de <b>0 à 9</b> → réponse <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "0 à 9"
+   ],
+   [
+    "b",
+    "0 à 10"
+   ],
+   [
+    "c",
+    "0 et 1"
+   ],
+   [
+    "d",
+    "1 à 10"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 5,
+  "sec": "1 — Numération et codage",
+  "enonce": "En binaire, nous avons :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "Le binaire (base 2) n'utilise que <b>2 symboles</b> : 0 et 1 → réponse <b>c</b>. Dix symboles correspondent à la base 10, seize à la base 16.",
+  "choices": [
+   [
+    "a",
+    "10 symboles"
+   ],
+   [
+    "b",
+    "9 symboles"
+   ],
+   [
+    "c",
+    "2 symboles"
+   ],
+   [
+    "d",
+    "16 symboles"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 6,
+  "sec": "1 — Numération et codage",
+  "enonce": "Le nombre binaire <b>1000</b> s'écrit :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "1000₂ = 1×2³ = <b>8</b> en décimal → réponse <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "7 en décimal"
+   ],
+   [
+    "b",
+    "4 en décimal"
+   ],
+   [
+    "c",
+    "8 en décimal"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 7,
+  "sec": "1 — Numération et codage",
+  "enonce": "Le nombre binaire <b>101</b> s'écrit :",
+  "type": "letter",
+  "accept": [
+   "b"
+  ],
+  "expl": "101₂ = 1×4 + 0×2 + 1×1 = <b>5</b> en décimal → réponse <b>b</b>.",
+  "choices": [
+   [
+    "a",
+    "3 en décimal"
+   ],
+   [
+    "b",
+    "5 en décimal"
+   ],
+   [
+    "c",
+    "2 en décimal"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 8,
+  "sec": "1 — Numération et codage",
+  "enonce": "Le nombre binaire <b>11111111</b> s'écrit :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "Huit 1 = 2⁸ − 1 = <b>255</b> en décimal → réponse <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "128 en décimal"
+   ],
+   [
+    "b",
+    "127 en décimal"
+   ],
+   [
+    "c",
+    "255 en décimal"
+   ],
+   [
+    "d",
+    "256 en décimal"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 9,
+  "sec": "1 — Numération et codage",
+  "enonce": "Quelle est la proposition exacte ?",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "Un octet = un byte = 8 bits → réponse <b>c</b>. (« byte » et « octet » sont synonymes ; 1 octet = 8 bits.)",
+  "choices": [
+   [
+    "a",
+    "1 octet = 8 bytes = 8 bits"
+   ],
+   [
+    "b",
+    "1 bit = 1 byte = 8 octets"
+   ],
+   [
+    "c",
+    "1 byte = 1 octet = 8 bits"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 10,
+  "sec": "1 — Numération et codage",
+  "enonce": "<b>17</b> en décimal vaut combien en binaire ?",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "17 = 16 + 1 = 10001₂ → réponse <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "1001"
+   ],
+   [
+    "b",
+    "11"
+   ],
+   [
+    "c",
+    "101"
+   ],
+   [
+    "d",
+    "10001"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 11,
+  "sec": "1 — Numération et codage",
+  "enonce": "En hexadécimal, nous avons :",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "L'hexadécimal (base 16) utilise <b>16 symboles</b> : 0-9 puis A-F → réponse <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "9 symboles"
+   ],
+   [
+    "b",
+    "2 symboles"
+   ],
+   [
+    "c",
+    "10 symboles"
+   ],
+   [
+    "d",
+    "16 symboles"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 12,
+  "sec": "1 — Numération et codage",
+  "enonce": "Le nombre binaire <b>1010</b> s'écrit :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "1010₂ = 10 en décimal = <b>A</b> en hexadécimal → réponse <b>c</b>. (Attention : « 10 en hexa » est faux, car en base 16 le nombre dix s'écrit A.)",
+  "choices": [
+   [
+    "a",
+    "10 en hexa"
+   ],
+   [
+    "b",
+    "3 en hexa"
+   ],
+   [
+    "c",
+    "A en hexa"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 13,
+  "sec": "1 — Numération et codage",
+  "enonce": "En décimal, le nombre <b>(12)₁₆</b> vaut :",
+  "type": "letter",
+  "accept": [
+   "b"
+  ],
+  "expl": "(12)₁₆ = 1×16 + 2×1 = <b>18</b> en décimal → réponse <b>b</b>.",
+  "choices": [
+   [
+    "a",
+    "C"
+   ],
+   [
+    "b",
+    "18"
+   ],
+   [
+    "c",
+    "3"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 14,
+  "sec": "1 — Numération et codage",
+  "enonce": "Le nombre binaire <b>01111000</b> vaut :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "On regroupe par quartets : 0111 = 7 et 1000 = 8, donc 0x<b>78</b> en hexadécimal → réponse <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "AF en hexa"
+   ],
+   [
+    "b",
+    "2G en hexa"
+   ],
+   [
+    "c",
+    "78 en hexa"
+   ],
+   [
+    "d",
+    "1E en hexa"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 15,
+  "sec": "1 — Numération et codage",
+  "enonce": "<b>01001110</b> est :",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "Un nombre écrit uniquement avec des 0 et des 1 est un binaire valide, mais c'est aussi un décimal valide et un hexadécimal valide. Sans indication de base, <b>on ne peut pas savoir</b> → réponse <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "un nombre binaire"
+   ],
+   [
+    "b",
+    "un nombre hexadécimal"
+   ],
+   [
+    "c",
+    "un nombre décimal"
+   ],
+   [
+    "d",
+    "on ne peut pas savoir"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 16,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "Rectangle avec « & » et sortie non barrée → fonction ET en représentation à cadre (norme européenne / IEC) → <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 17,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "f"
+  ],
+  "expl": "Forme en « D » (dos plat, avant arrondi), sortie non barrée → ET en représentation distinctive (norme américaine / MIL) → <b>f</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 18,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "Rectangle avec « & » et un petit triangle de négation en sortie → ET nié = NAND (norme européenne) → <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 19,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "h"
+  ],
+  "expl": "Forme en « D » (ET américain) suivie d'un petit rond de négation → NAND (norme américaine) → <b>h</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 20,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "Rectangle avec « ≥1 » (OU) et un triangle de négation en sortie → OU nié = NOR (norme européenne) → <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 21,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "i"
+  ],
+  "expl": "Forme de OU américain (dos incurvé, nez pointu) suivie d'un rond de négation → NOR (norme américaine) → <b>i</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 22,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "b"
+  ],
+  "expl": "Rectangle avec « ≥1 » et sortie non barrée → fonction OU à cadre (norme européenne) → <b>b</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 23,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "g"
+  ],
+  "expl": "Forme de OU américain (bouclier incurvé) sans rond de sortie → OU (norme américaine) → <b>g</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 24,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "l"
+  ],
+  "expl": "Rectangle avec « 1 », une seule entrée et un triangle de négation en sortie → fonction NON / inverseur (norme européenne) → <b>l</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 25,
+  "sec": "2 — Portes logiques : identification du symbole",
+  "enonce": "La porte logique ci-dessous est :<img class=\"gate\" alt=\"porte logique\" src=\"data:image/png;base64,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\">",
+  "type": "letter",
+  "accept": [
+   "k"
+  ],
+  "expl": "Triangle avec un rond de négation en sortie → inverseur NON (norme américaine) → <b>k</b>.",
+  "choices": [
+   [
+    "a",
+    "un ET (norme européenne)"
+   ],
+   [
+    "b",
+    "un OU (norme européenne)"
+   ],
+   [
+    "c",
+    "une NAND (norme européenne)"
+   ],
+   [
+    "d",
+    "une NOR (norme européenne)"
+   ],
+   [
+    "e",
+    "un OU exclusif (norme européenne)"
+   ],
+   [
+    "f",
+    "un ET (norme américaine)"
+   ],
+   [
+    "g",
+    "un OU (norme américaine)"
+   ],
+   [
+    "h",
+    "une NAND (norme américaine)"
+   ],
+   [
+    "i",
+    "une NOR (norme américaine)"
+   ],
+   [
+    "j",
+    "un OU exclusif (norme américaine)"
+   ],
+   [
+    "k",
+    "une PAS / NON (norme américaine)"
+   ],
+   [
+    "l",
+    "une PAS / NON (norme européenne)"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 26,
+  "sec": "3 — Tables de vérité",
+  "enonce": "La table de vérité du <b>ET</b> est :",
+  "type": "letter",
+  "accept": [
+   "b"
+  ],
+  "expl": "La fonction ET vaut 1 seulement si les deux entrées valent 1 : sortie 0,0,0,1 → table <b>b</b>.",
+  "choices": [
+   [
+    "a",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "b",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "c",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "d",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "e",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 27,
+  "sec": "3 — Tables de vérité",
+  "enonce": "La table de vérité du <b>OU</b> est :",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "La fonction OU vaut 1 dès qu'une entrée vaut 1 : sortie 0,1,1,1 → table <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "b",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "c",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "d",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "e",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 28,
+  "sec": "3 — Tables de vérité",
+  "enonce": "La table de vérité du <b>NOR</b> est :",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "La NOR est le OU nié : sortie 1 seulement si les deux entrées valent 0, soit 1,0,0,0 → table <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "b",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "c",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "d",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "e",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 29,
+  "sec": "3 — Tables de vérité",
+  "enonce": "La table de vérité du <b>NAND</b> est :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "La NAND est le ET nié : sortie 0 seulement si les deux entrées valent 1, soit 1,1,1,0 → table <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "b",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "c",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "d",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "e",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 30,
+  "sec": "3 — Tables de vérité",
+  "enonce": "La table de vérité du <b>OU exclusif</b> est :",
+  "type": "letter",
+  "accept": [
+   "e"
+  ],
+  "expl": "Le OU exclusif (XOR) vaut 1 si les entrées sont différentes : sortie 0,1,1,0 → table <b>e</b>.",
+  "choices": [
+   [
+    "a",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "b",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>1</td></tr></tbody></table>"
+   ],
+   [
+    "c",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "d",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>1</td></tr><tr><td>0</td><td>1</td><td>0</td></tr><tr><td>1</td><td>0</td><td>0</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ],
+   [
+    "e",
+    "<table class=\"tt\"><thead><tr><th>E1</th><th>E2</th><th>Sortie</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>1</td></tr><tr><td>1</td><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td><td>0</td></tr></tbody></table>"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 31,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "L'échantillonnage d'un signal consiste à :",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "Échantillonner = <b>prélever la valeur du signal à intervalles de temps réguliers</b> → <b>a</b>. (La quantification convertit ensuite ces valeurs en nombres binaires.)",
+  "choices": [
+   [
+    "a",
+    "Prélever la valeur du signal à intervalles de temps réguliers."
+   ],
+   [
+    "b",
+    "Convertir les nombres binaires en tensions."
+   ],
+   [
+    "c",
+    "Convertir les valeurs du signal en nombres binaires."
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 32,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "La qualité de la conversion d'un signal analogique en numérique dépend :",
+  "type": "letters",
+  "accept": [
+   "a",
+   "b"
+  ],
+  "expl": "Elle dépend de la <b>résolution</b> (nombre de bits, donc finesse verticale) et de la <b>fréquence d'échantillonnage</b> (finesse temporelle) → <b>a</b> et <b>b</b>. La tension d'alimentation n'intervient pas.",
+  "choices": [
+   [
+    "a",
+    "De la résolution du convertisseur."
+   ],
+   [
+    "b",
+    "De la fréquence d'échantillonnage du convertisseur."
+   ],
+   [
+    "c",
+    "De la tension d'alimentation."
+   ]
+  ],
+  "multi": true
+ },
+ {
+  "n": 33,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "Pour augmenter la qualité de la conversion, on peut :",
+  "type": "letters",
+  "accept": [
+   "a",
+   "c",
+   "d"
+  ],
+  "expl": "On <b>augmente le nombre de bits</b> (a), on <b>augmente la fréquence d'échantillonnage</b> (c), ce qui revient à <b>diminuer la période d'échantillonnage</b> (d) → <b>a, c, d</b>.",
+  "choices": [
+   [
+    "a",
+    "augmenter le nombre de bits du convertisseur"
+   ],
+   [
+    "b",
+    "diminuer la fréquence d'échantillonnage"
+   ],
+   [
+    "c",
+    "augmenter la fréquence d'échantillonnage"
+   ],
+   [
+    "d",
+    "diminuer la période d'échantillonnage"
+   ],
+   [
+    "e",
+    "augmenter la période d'échantillonnage"
+   ]
+  ],
+  "multi": true
+ },
+ {
+  "n": 34,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "La fréquence d'échantillonnage d'un signal est de 10 Hz. La durée entre deux prélèvements consécutifs est de :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "Période T = 1 / f = 1 / 10 = <b>0,1 s</b> → réponse <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "10 s"
+   ],
+   [
+    "b",
+    "100 s"
+   ],
+   [
+    "c",
+    "0,1 s"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 35,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "Choisissez les propositions justes :",
+  "type": "letters",
+  "accept": [
+   "b",
+   "d"
+  ],
+  "expl": "Un signal numérique est <b>moins précis</b> que l'analogique (la quantification perd de l'information) → b ; et il est <b>directement utilisable par un ordinateur</b> → d. Réponses <b>b et d</b>.",
+  "choices": [
+   [
+    "a",
+    "un signal numérique est plus précis qu'un signal analogique"
+   ],
+   [
+    "b",
+    "un signal numérique est moins précis qu'un signal analogique"
+   ],
+   [
+    "c",
+    "un signal analogique est utilisable directement par un ordinateur"
+   ],
+   [
+    "d",
+    "un signal numérique est utilisable directement par un ordinateur"
+   ]
+  ],
+  "multi": true
+ },
+ {
+  "n": 36,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "On dispose d'un <b>CAN</b> alimenté en 16 V (U<sub>ref</sub>) sur <b>3 bits</b>. Que vaut le quantum (résolution) de ce convertisseur ?",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "Quantum q = U<sub>ref</sub> / 2<sup>n</sup> = 16 / 2³ = 16 / 8 = <b>2 V</b> → réponse <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "0,5 V"
+   ],
+   [
+    "b",
+    "1 V"
+   ],
+   [
+    "c",
+    "1,5 V"
+   ],
+   [
+    "d",
+    "2 V"
+   ],
+   [
+    "e",
+    "4 V"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 37,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "CAN de résolution 2 V sur 3 bits. Pour avoir <b>000</b> en sortie, quelle valeur doit-on avoir en entrée ?",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "Code 000 = 0. L'intervalle est 0×q ≤ Ve < 1×q, soit <b>0 V ≤ valeur < 2 V</b> → <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V ≤ valeur < 2 V"
+   ],
+   [
+    "b",
+    "2 V ≤ valeur < 4 V"
+   ],
+   [
+    "c",
+    "4 V ≤ valeur < 6 V"
+   ],
+   [
+    "d",
+    "6 V ≤ valeur < 8 V"
+   ],
+   [
+    "e",
+    "8 V ≤ valeur < 10 V"
+   ],
+   [
+    "f",
+    "10 V ≤ valeur < 12 V"
+   ],
+   [
+    "g",
+    "12 V ≤ valeur < 14 V"
+   ],
+   [
+    "h",
+    "14 V ≤ valeur"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 38,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "CAN de résolution 2 V sur 3 bits. Pour avoir <b>001</b> en sortie, quelle valeur doit-on avoir en entrée ?",
+  "type": "letter",
+  "accept": [
+   "b"
+  ],
+  "expl": "Code 001 = 1. Intervalle 1×2 ≤ Ve < 2×2, soit <b>2 V ≤ valeur < 4 V</b> → <b>b</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V ≤ valeur < 2 V"
+   ],
+   [
+    "b",
+    "2 V ≤ valeur < 4 V"
+   ],
+   [
+    "c",
+    "4 V ≤ valeur < 6 V"
+   ],
+   [
+    "d",
+    "6 V ≤ valeur < 8 V"
+   ],
+   [
+    "e",
+    "8 V ≤ valeur < 10 V"
+   ],
+   [
+    "f",
+    "10 V ≤ valeur < 12 V"
+   ],
+   [
+    "g",
+    "12 V ≤ valeur < 14 V"
+   ],
+   [
+    "h",
+    "14 V ≤ valeur"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 39,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "CAN de résolution 2 V sur 3 bits. Pour avoir <b>100</b> en sortie, quelle valeur doit-on avoir en entrée ?",
+  "type": "letter",
+  "accept": [
+   "e"
+  ],
+  "expl": "Code 100 = 4. Intervalle 4×2 ≤ Ve < 5×2, soit <b>8 V ≤ valeur < 10 V</b> → <b>e</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V ≤ valeur < 2 V"
+   ],
+   [
+    "b",
+    "2 V ≤ valeur < 4 V"
+   ],
+   [
+    "c",
+    "4 V ≤ valeur < 6 V"
+   ],
+   [
+    "d",
+    "6 V ≤ valeur < 8 V"
+   ],
+   [
+    "e",
+    "8 V ≤ valeur < 10 V"
+   ],
+   [
+    "f",
+    "10 V ≤ valeur < 12 V"
+   ],
+   [
+    "g",
+    "12 V ≤ valeur < 14 V"
+   ],
+   [
+    "h",
+    "14 V ≤ valeur"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 40,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "CAN de résolution 2 V sur 3 bits. Pour avoir <b>111</b> en sortie, quelle valeur doit-on avoir en entrée ?",
+  "type": "letter",
+  "accept": [
+   "h"
+  ],
+  "expl": "Code 111 = 7 (valeur maximale). Intervalle 7×2 ≤ Ve, soit <b>14 V ≤ valeur</b> → <b>h</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V ≤ valeur < 2 V"
+   ],
+   [
+    "b",
+    "2 V ≤ valeur < 4 V"
+   ],
+   [
+    "c",
+    "4 V ≤ valeur < 6 V"
+   ],
+   [
+    "d",
+    "6 V ≤ valeur < 8 V"
+   ],
+   [
+    "e",
+    "8 V ≤ valeur < 10 V"
+   ],
+   [
+    "f",
+    "10 V ≤ valeur < 12 V"
+   ],
+   [
+    "g",
+    "12 V ≤ valeur < 14 V"
+   ],
+   [
+    "h",
+    "14 V ≤ valeur"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 41,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "On a un <b>CNA</b> de résolution (quantum) 0,5 V sur 3 bits. Que vaut la sortie lorsque le signal numérique est <b>000</b> ?",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "Sortie = code × q = 0 × 0,5 = <b>0 V</b> → <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V"
+   ],
+   [
+    "b",
+    "0,5 V"
+   ],
+   [
+    "c",
+    "1 V"
+   ],
+   [
+    "d",
+    "1,5 V"
+   ],
+   [
+    "e",
+    "2 V"
+   ],
+   [
+    "f",
+    "2,5 V"
+   ],
+   [
+    "g",
+    "3 V"
+   ],
+   [
+    "h",
+    "3,5 V"
+   ],
+   [
+    "i",
+    "4 V"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 42,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "CNA de résolution 0,5 V sur 3 bits. Que vaut la sortie lorsque le signal numérique est <b>100</b> ?",
+  "type": "letter",
+  "accept": [
+   "e"
+  ],
+  "expl": "100 = 4, donc sortie = 4 × 0,5 = <b>2 V</b> → <b>e</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V"
+   ],
+   [
+    "b",
+    "0,5 V"
+   ],
+   [
+    "c",
+    "1 V"
+   ],
+   [
+    "d",
+    "1,5 V"
+   ],
+   [
+    "e",
+    "2 V"
+   ],
+   [
+    "f",
+    "2,5 V"
+   ],
+   [
+    "g",
+    "3 V"
+   ],
+   [
+    "h",
+    "3,5 V"
+   ],
+   [
+    "i",
+    "4 V"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 43,
+  "sec": "4 — Échantillonnage et conversion analogique / numérique",
+  "enonce": "CNA de résolution 0,5 V sur 3 bits. Que vaut la sortie lorsque le signal numérique est <b>111</b> ?",
+  "type": "letter",
+  "accept": [
+   "h"
+  ],
+  "expl": "111 = 7, donc sortie = 7 × 0,5 = <b>3,5 V</b> → <b>h</b>.",
+  "choices": [
+   [
+    "a",
+    "0 V"
+   ],
+   [
+    "b",
+    "0,5 V"
+   ],
+   [
+    "c",
+    "1 V"
+   ],
+   [
+    "d",
+    "1,5 V"
+   ],
+   [
+    "e",
+    "2 V"
+   ],
+   [
+    "f",
+    "2,5 V"
+   ],
+   [
+    "g",
+    "3 V"
+   ],
+   [
+    "h",
+    "3,5 V"
+   ],
+   [
+    "i",
+    "4 V"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 44,
+  "sec": "5 — Les capteurs",
+  "enonce": "Quelles sont les grandeurs de sortie possibles d'un capteur ?",
+  "type": "letters",
+  "accept": [
+   "a",
+   "b",
+   "e",
+   "f"
+  ],
+  "expl": "Un capteur délivre un <b>signal</b> exploitable : analogique en tension (a) ou en intensité (b), un <b>mot numérique</b> (e), ou un <b>signal T.O.R.</b> tout-ou-rien (f). La luminosité (c) est la grandeur physique <i>mesurée</i> (entrée), pas une sortie. Selon les cours, la <b>résistance</b> (d) est parfois acceptée pour les capteurs résistifs, mais ce n'est pas un signal directement exploitable : réponse retenue <b>a, b, e, f</b>.",
+  "choices": [
+   [
+    "a",
+    "un signal analogique sous forme d'une tension"
+   ],
+   [
+    "b",
+    "un signal analogique sous forme d'une intensité"
+   ],
+   [
+    "c",
+    "une luminosité"
+   ],
+   [
+    "d",
+    "une résistance"
+   ],
+   [
+    "e",
+    "un mot numérique"
+   ],
+   [
+    "f",
+    "un signal T.O.R."
+   ]
+  ],
+  "multi": true
+ },
+ {
+  "n": 45,
+  "sec": "5 — Les capteurs",
+  "enonce": "Un capteur <b>inductif</b> détecte :",
+  "type": "letter",
+  "accept": [
+   "b"
+  ],
+  "expl": "Un capteur inductif détecte sans contact <b>les objets métalliques qui s'approchent</b> → <b>b</b>.",
+  "choices": [
+   [
+    "a",
+    "les éléments métalliques qui le touchent (en appuyant dessus)"
+   ],
+   [
+    "b",
+    "les éléments métalliques qui l'approchent"
+   ],
+   [
+    "c",
+    "tous les éléments qui le touchent (en appuyant dessus)"
+   ],
+   [
+    "d",
+    "tous les éléments qui l'approchent"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 46,
+  "sec": "5 — Les capteurs",
+  "enonce": "Un capteur <b>capacitif</b> détecte :",
+  "type": "letter",
+  "accept": [
+   "d"
+  ],
+  "expl": "Un capteur capacitif détecte sans contact <b>tous les matériaux qui s'approchent</b> (métaux, liquides, plastiques…) → <b>d</b>.",
+  "choices": [
+   [
+    "a",
+    "les éléments métalliques qui le touchent (en appuyant dessus)"
+   ],
+   [
+    "b",
+    "les éléments métalliques qui l'approchent"
+   ],
+   [
+    "c",
+    "tous les éléments qui le touchent (en appuyant dessus)"
+   ],
+   [
+    "d",
+    "tous les éléments qui l'approchent"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 47,
+  "sec": "5 — Les capteurs",
+  "enonce": "Un capteur <b>mécanique</b> détecte :",
+  "type": "letter",
+  "accept": [
+   "c"
+  ],
+  "expl": "Un capteur mécanique (fin de course) nécessite un <b>contact physique : tous les éléments qui le touchent</b> → <b>c</b>.",
+  "choices": [
+   [
+    "a",
+    "les éléments métalliques qui le touchent (en appuyant dessus)"
+   ],
+   [
+    "b",
+    "les éléments métalliques qui l'approchent"
+   ],
+   [
+    "c",
+    "tous les éléments qui le touchent (en appuyant dessus)"
+   ],
+   [
+    "d",
+    "tous les éléments qui l'approchent"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 48,
+  "sec": "5 — Les capteurs",
+  "enonce": "Un capteur se situe dans quelle partie de la chaîne d'information ?",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "La chaîne d'information comporte trois fonctions : ACQUÉRIR → TRAITER → COMMUNIQUER. Le capteur prélève l'information sur le système : il <b>acquiert</b> (détecte) → <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "acquérir (détecter)"
+   ],
+   [
+    "b",
+    "traiter"
+   ],
+   [
+    "c",
+    "communiquer"
+   ]
+  ],
+  "multi": false
+ },
+ {
+  "n": 49,
+  "sec": "5 — Les capteurs",
+  "enonce": "À quel type de capteur correspond un capteur dont le signal de sortie est une tension électrique qui varie de 0 à +5 V en fonction de la luminosité ambiante ?",
+  "type": "letter",
+  "accept": [
+   "a"
+  ],
+  "expl": "La sortie varie de façon <b>continue</b> avec la luminosité : c'est un <b>capteur analogique</b> → <b>a</b>.",
+  "choices": [
+   [
+    "a",
+    "Un capteur analogique"
+   ],
+   [
+    "b",
+    "Un capteur numérique"
+   ]
+  ],
+  "multi": false
+ }
+]
